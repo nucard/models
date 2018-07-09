@@ -1,0 +1,22 @@
+{
+  "name": "@nucard/models",
+  "version": "1.0.0",
+  "description": "The Typescript models for NuCard, a community-powered platform for collectible card games.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucard/models.git"
+  },
+  "keywords": [
+    "nucard"
+  ],
+  "author": "Jammerware",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nucard/models/issues"
+  },
+  "homepage": "https://github.com/nucard/models#readme"
+}
