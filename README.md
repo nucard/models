@@ -1,0 +1,2 @@
+# @nucard/models
+This package contains the models for NuCard, the community-powered platform for collectible games. I use it in the REST API and the Angular client, and you can use it if you want to make your own Node-based client, too.
