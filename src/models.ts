@@ -1,19 +1,19 @@
 export class NcExtension {
-    name: string;
-    apiVersion: NcVersion;
-    extensionVersion: NcVersion;
-    costsEndpoint: string;
-    queryEndpoint: string;
-    raritiesEndpoint: string;
+    name?: string;
+    apiVersion?: NcVersion;
+    extensionVersion?: NcVersion;
+    costsEndpoint?: string;
+    queryEndpoint?: string;
+    raritiesEndpoint?: string;
 }
 
 export class NcCard {
-    name: string;
-    rarity: string;
-    cost: string[];
-    types: string[];
-    subtypes: string[];
-    thumbnail: string;
+    name?: string;
+    rarity?: string;
+    cost?: string[];
+    types: string[] = [];
+    subtypes: string[] = [];
+    thumbnail?: string;
     text?: string;
     printings?: NcPrinting[];
 }
@@ -22,7 +22,7 @@ export class NcPrinting {
     artist?: string;
     collectorsNumber?: string;
     flavorText?: string;
-    image: string;
+    image?: string;
     printingIcon?: string;
     printedIn?: string;
     viewOn?: NcExternalInfoProvider[] = [];
@@ -30,14 +30,11 @@ export class NcPrinting {
 }
 
 export class NcExternalInfoProvider {
-    url: string;
-    icon: string;
-    name: string;
-    price?: string;
+    constructor(public name: string, public url: string, public icon: string, public price?: string) { }
 }
 
 export class NcVersion {
-    major: number;
-    minor: number;
-    patch: number;
+    major?: number;
+    minor?: number;
+    patch?: number;
 }
