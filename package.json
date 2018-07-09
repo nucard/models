@@ -1,8 +1,9 @@
 {
   "name": "@nucard/models",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "The Typescript models for NuCard, a community-powered platform for collectible card games.",
-  "main": "dist/index.js",
+  "main": "dist/index",
+  "typings": "dist/index",
   "scripts": {
     "test": "test",
     "deploy": "tsc && npm publish"
