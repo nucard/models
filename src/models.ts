@@ -1,9 +1,11 @@
 export class NcExtension {
-    name?: string;
-    apiVersion?: NcVersion;
-    extensionVersion?: NcVersion;
-    costsEndpoint?: string;
-    queryEndpoint?: string;
+    id: string;
+    name: string;
+    apiVersion: NcVersion;
+    extensionVersion: NcVersion;
+    costsEndpoint: string;
+    queryEndpoint: string;
+    randomCardEndpoint: string;
     raritiesEndpoint?: string;
 }
 
