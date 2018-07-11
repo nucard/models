@@ -11,6 +11,7 @@ export class NcExtension {
 }
 
 export class NcCard {
+    id: string;
     name?: string;
     rarity?: string;
     cost?: string[];
@@ -23,7 +24,6 @@ export class NcCard {
 
 export class NcPrinting {
     artist?: string;
-    collectorsNumber?: string;
     flavorText?: string;
     image?: string;
     printingIcon?: string;
