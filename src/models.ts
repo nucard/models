@@ -6,7 +6,8 @@ export class NcExtension {
     costsEndpoint: string;
     queryEndpoint: string;
     randomCardEndpoint: string;
-    raritiesEndpoint?: string;
+    raritiesEndpoint: string;
+    rulesTextEndpoint: string;
 }
 
 export class NcCard {
