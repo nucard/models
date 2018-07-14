@@ -22,6 +22,11 @@ export class NcCard {
     printings?: NcPrinting[];
 }
 
+export class NcCost {
+    symbol: string;
+    image: string;
+}
+
 export class NcPrinting {
     artist?: string;
     flavorText?: string;
