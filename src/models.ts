@@ -13,6 +13,7 @@ export class NcCard {
     id: string;
     name?: string;
     rarity?: string;
+    faction?: string;
     cost?: string;
     types: string[] = [];
     subtypes: string[] = [];
