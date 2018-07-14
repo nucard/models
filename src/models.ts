@@ -3,11 +3,10 @@ export class NcExtension {
     name: string;
     apiVersion: NcVersion;
     extensionVersion: NcVersion;
-    costsEndpoint: string;
     queryEndpoint: string;
     randomCardEndpoint: string;
     raritiesEndpoint: string;
-    rulesTextEndpoint: string;
+    rulesSymbolsEndpoint: string;
 }
 
 export class NcCard {
@@ -22,9 +21,8 @@ export class NcCard {
     printings?: NcPrinting[];
 }
 
-export class NcCost {
-    symbol: string;
-    image: string;
+export class NcExternalInfoProvider {
+    constructor(public name: string, public url: string, public icon: string, public price?: string) { }
 }
 
 export class NcPrinting {
@@ -37,8 +35,9 @@ export class NcPrinting {
     buyAt?: NcExternalInfoProvider[] = [];
 }
 
-export class NcExternalInfoProvider {
-    constructor(public name: string, public url: string, public icon: string, public price?: string) { }
+export class NcRulesSymbol {
+    symbol: string;
+    image: string;
 }
 
 export class NcVersion {
