@@ -3,10 +3,9 @@ export class NcExtension {
     name: string;
     apiVersion: NcVersion;
     extensionVersion: NcVersion;
-    queryEndpoint: string;
     randomCardEndpoint: string;
-    raritiesEndpoint: string;
     rulesSymbolsEndpoint: string;
+    searchEndpoint: string;
 }
 
 export class NcCard {
