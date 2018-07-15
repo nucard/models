@@ -16,7 +16,7 @@ export class NcCard {
     faction?: string;
     cost?: string;
     types: string[] = [];
-    subtypes: string[] = [];
+    subtypes?: string[] = [];
     thumbnail?: string;
     text?: string;
     printings?: NcPrinting[];
