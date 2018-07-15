@@ -23,7 +23,7 @@ export class NcCard {
 }
 
 export class NcExternalInfoProvider {
-    constructor(public name: string, public url: string, public icon: string, public price?: string) { }
+    constructor(public name: string, public url: string, public icon: string, public price?: string = null) { }
 }
 
 export class NcPrinting {
