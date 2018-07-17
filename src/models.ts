@@ -4,8 +4,9 @@ export class NcExtension {
     apiVersion: NcVersion;
     extensionVersion: NcVersion;
     endpoints: {
+        card: string;
         cards: string;
-        externalProviders: string;
+        externalInfoProviders: string;
         randomCard: string;
         rulesSymbols: string;
         search: string;
