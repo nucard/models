@@ -1,6 +1,7 @@
 export class NcExtension {
     id: string;
     name: string;
+    gameName: string;
     apiVersion: NcVersion;
     extensionVersion: NcVersion;
     endpoints: {
@@ -53,6 +54,11 @@ export class NcPrinting {
 export class NcRulesSymbol {
     symbol: string;
     image: string;
+}
+
+export class NcSearchResult {
+    cards: NcCard[];
+    extension: NcExtension;
 }
 
 export class NcVersion {
