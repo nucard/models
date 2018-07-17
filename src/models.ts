@@ -15,15 +15,21 @@ export class NcExtension {
 
 export class NcCard {
     id: string;
-    name?: string;
+    name: string;
     rarity?: string;
-    faction?: string;
+    factionId?: string;
     cost?: string;
     types: string[] = [];
     subtypes?: string[] = [];
     thumbnail?: string;
     text?: string;
     printings?: NcPrinting[];
+}
+
+export class NcFaction {
+    id: string;
+    name: string;
+    icon?: string = null;
 }
 
 export class NcExternalInfoProvider {
