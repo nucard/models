@@ -7,6 +7,7 @@ export class NcExtension {
         card: string;
         cards: string;
         externalInfoProviders: string;
+        factions: string;
         randomCard: string;
         rulesSymbols: string;
         search: string;
