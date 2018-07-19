@@ -6,11 +6,10 @@ export class NcExtension {
     extensionVersion: NcVersion;
     endpoints: {
         card: string;
-        cards: string;
-        externalInfoProviders: string;
-        factions: string;
+        externalInfoProviders?: string;
+        factions?: string;
         randomCard: string;
-        rulesSymbols: string;
+        rulesSymbols?: string;
         search: string;
     };
 }
