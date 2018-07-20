@@ -1,6 +1,7 @@
 export class NcExtension {
     id: string;
     name: string;
+    logo?: string;
     gameName: string;
     apiVersion: NcVersion;
     extensionVersion: NcVersion;
