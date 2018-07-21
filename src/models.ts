@@ -26,6 +26,7 @@ export class NcCard {
     thumbnail?: string;
     text?: string;
     printings?: NcPrinting[];
+    extraAttributes?: { name: string; value: string }[] = []
 }
 
 export class NcFaction {
